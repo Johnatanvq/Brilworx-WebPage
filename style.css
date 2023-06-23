@@ -1,0 +1,326 @@
+body {
+    margin: 0px;
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #2d2c4c;
+}
+
+img {
+    max-width: 65%;
+    max-height: 650%;
+}
+
+
+.first-main-section {
+    position: relative;
+    background-color: #fcd750;
+    width: 100%;
+    padding-bottom: 7rem;
+}
+
+.main-nav {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #fcd750;
+    z-index: 12;
+}
+
+
+.container-navbar {
+    position: relative;
+    width: 90%;
+    max-width: 70rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.container-logo-navbar {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    height: 45px;
+}
+
+.nav-menu {
+    position: absolute;
+    top: 50%;
+    font-size: small;
+    right: 2rem;
+    -webkit-transform: translate(0px, -50%);
+    -ms-transform: translate(0px, -50%);
+    transform: translate(0px, -50%);
+    margin: 10px 10px;
+}
+
+
+.first-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+}
+
+.first-top-left-column-texts {
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+}
+
+.first-top-column-label {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #2d2c4c;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    align-items: start;
+    justify-content: start;
+}
+
+.first-top-column-big-text-left {
+    font-family: 'Hanken book', sans-serif;
+    font-size: 4rem;
+    line-height: 1.1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    height: auto;
+    align-items: start;
+}
+
+.first-top-right-column-image-guy {
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#image-guy {
+    padding: 20px;
+    margin: 40px;
+}
+
+
+.first-bottom-container {
+    height: 40px;
+    width: auto;
+    margin: 30px;
+    padding: 30px;
+}
+
+.first-bottom-container-text {
+    font-size: 2rem;
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.first-bottom-column-texts {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.first-column {
+    width: 200px;
+    height: auto;
+    margin: 15px;
+    float: left;
+    position: relative;
+}
+
+.first-column-image {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+}
+
+.first-column-title {
+    color: dodgerblue;
+    text-align: start;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.first-column-text {
+    text-align: start;
+    font-size: small;
+    font: bold;
+}
+
+.first-column-btn {
+    background-color: dodgerblue;
+    border-radius: 3px;
+    border: none;
+    font-size: xx-small;
+    color: white;
+    padding: 10px;
+}
+
+.second-main-section, .fourth-main-section, .sixth-main-section {
+    position: relative;
+    width: 100%;
+    background-color: red;
+}
+
+.second-container, .fourth-container, .sixth-container{
+    position: relative;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.second-left-logo-one, .fourth-left-logo-one, .sixth-left-logo-one{
+    width: 47%;
+    height: 47%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: absolute;
+}
+
+.second-column-container, .fourth-column-container, .sixth-column-container{
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+}
+
+.second-container-row, .fourth-container-row, .sixth-container-row{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.second-top-row-label, .fourth-top-row-label, .sixth-top-row-label{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #2d2c4c;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    align-items: start;
+    justify-content: start;   
+}
+
+.second-center-row-title, .third-center-row-title, .fourth-center-row-title, .sixth-center-row-title{
+    font-family: 'Hanken book', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: auto;
+}
+
+.second-bottom-row-text, .third-bottom-row-text, .fourth-bottom-row-text, .sixth-bottom-row-text{
+    font-size: 23px;
+    padding: 15px 15px 15px 15px;
+}
+
+.second-three-column, .fourth-three-column{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.second-column-title, .fourth-column-title{
+    color: dodgerblue;
+    text-align: start;
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    
+}
+
+.second-column-text, .fourth-column-text{
+    text-align: start;
+    font-size: small;
+    font: bold;
+    margin-top: 10px;
+}
+
+
+.third-main-section {
+    width: 100%;
+    padding-top: auto;
+    background-color: cyan;
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+    margin-top: auto;
+    position: relative;
+}
+
+.third-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: orange;
+}
+
+.third-top-row-label {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #2d2c4c;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    align-items: start;
+    justify-content: start; 
+}
+
+.third-container-four-column {
+    background-color: gray;
+    border: 4px red solid;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.third-column-title {
+    color: dodgerblue;
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.third-column-one, .third-column-two, .third-column-three, .third-column-four {
+    width: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
