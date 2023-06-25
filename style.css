@@ -1,5 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0px;
     font-family: 'Opens Sans', sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -7,15 +12,13 @@ body {
 }
 
 img {
-    max-width: 65%;
-    max-height: 650%;
+    max-width: 85%;
+    max-height: 85%;
 }
-
 
 .first-main-section {
     position: relative;
     background-color: #fcd750;
-    width: 100%;
     padding-bottom: 7rem;
 }
 
@@ -24,22 +27,22 @@ img {
     left: 0px;
     top: 0px;
     right: 0px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     background-color: #fcd750;
     z-index: 12;
 }
 
-
 .container-navbar {
     position: relative;
-    width: 90%;
+    width: 80%;
     max-width: 70rem;
     display: block;
     margin-right: auto;
     margin-left: auto;
     padding-right: 2rem;
     padding-left: 2rem;
+    padding-bottom: auto;
 }
 
 .container-logo-navbar {
@@ -52,27 +55,37 @@ img {
 .nav-menu {
     position: absolute;
     top: 50%;
-    font-size: small;
     right: 2rem;
     -webkit-transform: translate(0px, -50%);
     -ms-transform: translate(0px, -50%);
     transform: translate(0px, -50%);
-    margin: 10px 10px;
 }
 
+.menu {
+    font-size: 13px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.menu:hover{
+    color: dodgerblue;
+}
 
 .first-container {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 8rem;
     position: relative;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
 }
 
 .first-top-left-column-texts {
-    margin-top: 20%;
-    margin-bottom: 20%;
-
+    max-width: 100%;
 }
 
 .first-top-column-label {
@@ -89,23 +102,26 @@ img {
     text-transform: uppercase;
     align-items: start;
     justify-content: start;
+    font-size: 0.864rem;
+    line-height: 1.7em;
 }
 
 .first-top-column-big-text-left {
     font-family: 'Hanken book', sans-serif;
-    font-size: 4rem;
+    font-size: 4.5rem;
     line-height: 1.1em;
     font-weight: 400;
     text-transform: uppercase;
-    height: auto;
-    align-items: start;
 }
 
 .first-top-right-column-image-guy {
-
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: end;
+    margin-left: 1%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 90%;
 }
 
 #image-guy {
@@ -113,22 +129,21 @@ img {
     margin: 40px;
 }
 
-
 .first-bottom-container {
-    height: 40px;
+    height: 10px;
     width: auto;
-    margin: 30px;
-    padding: 30px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .first-bottom-container-text {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin: 40px;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 1%;
     display: flex;
     justify-content: start;
     align-items: start;
-
 }
 
 .first-bottom-column-texts {
@@ -150,8 +165,8 @@ img {
 }
 
 .first-column-image {
-    width: 20%;
-    height: 20%;
+    width: 27%;
+    height: 27%;
     display: flex;
     justify-content: start;
 }
@@ -180,8 +195,7 @@ img {
 
 .second-main-section, .fourth-main-section, .sixth-main-section {
     position: relative;
-    width: 100%;
-    background-color: red;
+    padding-bottom: 6rem;
 }
 
 .second-container, .fourth-container, .sixth-container{
@@ -189,45 +203,42 @@ img {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 5rem;
-    padding-bottom: 4rem;
+    padding: 5rem 4rem 1rem 4rem;
 }
 
-.second-left-logo-one, .fourth-left-logo-one, .sixth-left-logo-one{
-    width: 47%;
-    height: 47%;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    position: absolute;
+.second-left-logo-one {
+    width: 23%;
+    float: left;
 }
 
-.second-column-container, .fourth-column-container, .sixth-column-container{
-    width: 65%;
+.second-column-container, .fourth-column-container, .sixth-column-container {
+    position: relative;
+    width: 70%;
     height: auto;
-    margin-left: auto;
+    text-align: start;
+    margin-left: 30%;
 }
 
 .second-container-row, .fourth-container-row, .sixth-container-row{
     position: relative;
-    width: 100%;
     height: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 80%;
+    text-align: start;
 }
 
-.second-top-row-label, .fourth-top-row-label, .sixth-top-row-label{
-    display: inline-block;
+.second-top-row-label, .fourth-top-row-label, .sixth-top-row-label {
     margin-bottom: 5px;
     margin-top: 5px;
-    padding-top: auto;
-    padding-bottom: auto;
-    padding-right: 5px;
-    padding-left: 5px;
     background-color: #2d2c4c;
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
-    align-items: start;
-    justify-content: start;   
+    text-align: start;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    text-decoration: none;
 }
 
 .second-center-row-title, .third-center-row-title, .fourth-center-row-title, .sixth-center-row-title{
@@ -235,16 +246,16 @@ img {
     font-size: 4rem;
     font-weight: 400;
     margin-top: 30px;
-    margin-bottom: auto;
+    text-align: start;
 }
 
 .second-bottom-row-text, .third-bottom-row-text, .fourth-bottom-row-text, .sixth-bottom-row-text{
     font-size: 23px;
     padding: 15px 15px 15px 15px;
+    text-align: start;
 }
 
 .second-three-column, .fourth-three-column{
-    width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -257,7 +268,6 @@ img {
     font-size: 15px;
     font-weight: 200;
     margin-bottom: 10px;
-    
 }
 
 .second-column-text, .fourth-column-text{
@@ -267,11 +277,9 @@ img {
     margin-top: 10px;
 }
 
-
 .third-main-section {
-    width: 100%;
     padding-top: auto;
-    background-color: cyan;
+    background-color: #BCE3F5;
     padding-bottom: 5rem;
     padding-top: 4rem;
     margin-top: auto;
@@ -282,7 +290,6 @@ img {
     width: 90%;
     margin: 0 auto;
     margin-top: 2rem;
-    background-color: orange;
 }
 
 .third-top-row-label {
@@ -302,8 +309,6 @@ img {
 }
 
 .third-container-four-column {
-    background-color: gray;
-    border: 4px red solid;
     width: 90%;
     margin: 0 auto;
     text-align: center;
@@ -323,4 +328,131 @@ img {
     width: auto;
     padding-right: 1rem;
     padding-left: 1rem;
+}
+
+.fourth-main-section {
+    padding-top: auto;
+    padding-top: 4rem;
+    position: relative;
+}
+
+.fourth-left-logo-one {
+    width: 23%;
+    float: left;
+    transform: rotate(180deg);
+}
+
+.fifth-main-section {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    background-color:#fcd750;
+}
+
+.fifth-column-container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-bottom: auto;
+}
+
+.second-top-logo-one {
+    width: 4.5%;
+}
+
+.fifth-center-row-title {
+    font-family: 'Hanken book', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: auto;
+}
+
+.fifth-column-text {
+    font-size: 90%;
+}
+
+.fifth-column-btn {
+    background-color: #2D2C4C;
+    color: white;
+    padding: 1rem 1.5rem 0.7rem;
+    border-radius: 0.25rem;
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+    font-family: 'Hanken book', sans-serif;
+    font-size: 0.864em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.sixth-left-logo-one {
+    width: 23%;
+    float: left;
+    transform: rotate(90deg);
+}
+
+.sixth-btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem 1.5rem 0.7rem;
+    border-radius: 0.25rem;
+    font-family: 'Hanken book', sans-serif;
+    font-size: 0.864em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.footer-main-section {
+    padding-top: 2rem;
+    background-color:#2d2c4c;
+}
+
+.footer-container {
+    width: 80%;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    gap: 2px;
+}
+
+.footer-icon {
+    width: 20%;
+}
+
+.footer-info, .footer-contact {
+    color: #fcd750;
+}
+
+.footer-info-text:hover {
+    color: dodgerblue;
+}
+
+.footer-socialmedia {
+    padding: auto;
+}
+
+.footer-title {
+    color: dodgerblue;
+    text-align: start;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.footer-text {
+    color: white;
+    font-size: 13px;
+}
+
+.footer-company-registration {
+    color: white;
+}
+
+.footer-social-icons {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
