@@ -1,0 +1,1 @@
+Clone of the Bloworx website built only with HTML and CSS, created as a learning exercise to practice front-end layout and styling. For educational purposes only, with no commercial use or affiliation.
